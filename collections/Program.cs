@@ -53,8 +53,31 @@ foreach (KeyValuePair<string,string> entry in user){
 }
 
 
+// ***************************boxing/unboxing****************
+
+List<object> boxing = new List<object>();
+boxing.Add(7);
+boxing.Add(28);
+boxing.Add(-1);
+boxing.Add(true);
+boxing.Add("chair");
+
+for (var idx = 0; idx < boxing.Count; idx++)
+{
+ Console.WriteLine("-" + boxing[idx]);
+}
 
 
+
+// object boxedData= boxing;
+// int value = 0;
+// if (boxedData is int){
+//  value+=boxedData;
+// }
+
+
+
+// ***************************functionsAssignment*******************************
 
 
 
